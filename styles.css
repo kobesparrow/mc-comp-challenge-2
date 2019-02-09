@@ -65,20 +65,44 @@ nav.nav-header {
 .nav-header--searchbar {
   width: 90%;
 }
-/*
+
+.body-top--navlist {
+  disp
+}
+
 .body-table {
-  background-color: #ECF2F6;
+  display: flex;
+  flex-direction: row;
+/*  background-color: #ECF2F6;
   width: 1005:;*/
+}
+.body-grid {
+/*  display: grid;
+  grid-template-rows: 600px 250px;
+  grid-template-areas: 
+  "bodytop bodytop"
+  "line line"
+  "table social"*/
+}
+
+.body-middle {
+  grid-area: bodytop;
+}
+
+.body-linebreak {
+  grid-area: line;
 }
 
 div.table-div {
   margin: 40px;
   background-color: white;
+  grid-area: table;
 }
 
 table {
   width: 600px;
-  margin: 40px;
+  border-collapse: collapse;
+/*  margin: 40px;*/
   font-size: 14px;
   background-color: white;
 }
@@ -88,17 +112,63 @@ table td {
   /*border: 1px solid #ddd;*/
 }
 
-tr.table-header {
+th {
+  background-color: #6F7D95;
+}
+
+.table-styles {
   background-color: #6F7D95;
   color: white;
   height: 60px;
   border-color: #354052;
+  text-align: left;
+  /*margin-left: 10px;*/
 }
 
 .table-left-column {
   width: 175px;
+  vertical-align: top;
+  padding-left: 0px;
+  /*border-bottom: 1px solid #ddd;*/
 }
 
+.table-border-columns {
+  border-bottom: 1px solid #ddd;
+}
+
+container.footer-column {
+  margin-top: 40px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 0px;
+  /*grid-area: social;*/
+}
+
+.social-button {
+  width: 250px;
+  height: 43px;
+  color: white;
+  margin: 10px 0px 10px 0px;
+  border: 0px;
+}
+
+.facebook {
+  background-color: #4A70C2;
+  margin-top: 0px;
+}
+
+.twitter {
+  background-color: #00AAEF;
+}
+
+.linkedin {
+  background-color: #037EBB;
+}
+
+.footer-linktojob {
+
+}
 
 
 
