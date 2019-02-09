@@ -6,7 +6,7 @@
 }
 
 body {
-
+  background-color: #ECF2F6;
 }
 container.mastergrid {
   display: grid;
@@ -65,7 +65,40 @@ nav.nav-header {
 .nav-header--searchbar {
   width: 90%;
 }
-
-container.body-table {
-  background: #ECF2F6;
+/*
+.body-table {
+  background-color: #ECF2F6;
+  width: 1005:;*/
 }
+
+div.table-div {
+  margin: 40px;
+  background-color: white;
+}
+
+table {
+  width: 600px;
+  margin: 40px;
+  font-size: 14px;
+  background-color: white;
+}
+
+table td {
+  padding: 13px;
+  /*border: 1px solid #ddd;*/
+}
+
+tr.table-header {
+  background-color: #6F7D95;
+  color: white;
+  height: 60px;
+  border-color: #354052;
+}
+
+.table-left-column {
+  width: 175px;
+}
+
+
+
+
