@@ -8,7 +8,64 @@
 body {
 
 }
+container.mastergrid {
+  display: grid;
+  grid-template-columns: 200px 800px;
+}
+
+.box1 {
+  grid-row: 1 / span 5;
+}
+
+nav.nav-column {
+  width: 200px;
+  background-color: #354052;
+  height: 100%;
+  color: #A0ACBF;
+  padding-left: 10px;
+}
+
+ul {
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+  margin: 10px auto;
+  font-size: .75em;
+  font-style: bold;
+}
+
+.svg-inline--fa {
+  margin-right: 15px;
+}
+
+span.nav-column--header-text {
+  color: #65748D;
+  font-size: 5px;
+}
+
+div.nav-column1 {
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: center;*/
+}
 
 img.nav-column1--image {
+  height: 150px;
   border-radius: 50%;
+}
+
+nav.nav-header {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+} 
+
+.nav-header--searchbar {
+  width: 90%;
+}
+
+container.body-table {
+  background: #ECF2F6;
 }
