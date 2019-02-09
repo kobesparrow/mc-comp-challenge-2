@@ -10,7 +10,7 @@ body {
 }
 container.mastergrid {
   display: grid;
-  grid-template-columns: 200px 800px;
+  grid-template-columns: 200px 950px;
 }
 
 .box1 {
@@ -35,6 +35,12 @@ li {
   font-size: .75em;
   font-style: bold;
 }
+
+hr {
+  margin-bottom: 0px;
+}
+
+/*LEFT COLUMN*/
 
 .svg-inline--fa {
   margin-right: 15px;
@@ -66,8 +72,61 @@ nav.nav-header {
   width: 90%;
 }
 
+.nav-header--buttons:hover {
+  background-color: #16A4FA
+}
+
+
+/*TOP SECTION*/
+.box2 {
+  background-color: white;
+  /*padding-left: 40px;*/
+}
+
+.body-top {
+  padding-left: 40px;
+}
+
+p.body-top--title {
+  margin-left: 40px;
+  font-size: 1.5em;
+  font-weight: 300;
+  margin-bottom: 0px;
+}
+
+p.body-top--subhead {
+  margin-left: 40px;
+  font-size: .75em;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  color: #7989A0;
+}
+
+span.body-top--subhead--link{
+  color: #16A4FA;
+}
+
+.body-top--hoverlinks {
+  display: inline;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+
 .body-top--navlist {
-  disp
+  display: inline;
+  border-bottom: 10px;
+  margin: 10px;
+  color: #7989A0;
+  /*font-weight: bolder;*/
+  font-size: .5em;
+  letter-spacing: .25px;
+}
+
+.body-top--navlist:hover {
+  padding-bottom: 10px;
+  border-bottom: 3px solid #16A4FA;
+  cursor: pointer;
+  color: black;
 }
 
 .body-table {
@@ -84,6 +143,8 @@ nav.nav-header {
   "line line"
   "table social"*/
 }
+
+/*BODY MIDDLE*/
 
 .body-middle {
   grid-area: bodytop;
@@ -105,6 +166,9 @@ table {
 /*  margin: 40px;*/
   font-size: 14px;
   background-color: white;
+  vertical-align: top;
+  /*color: #9AA3AF;*/
+  color: #7989A0;
 }
 
 table td {
@@ -129,6 +193,10 @@ th {
   width: 175px;
   vertical-align: top;
   padding-left: 0px;
+  padding-top: 15px;
+  color: #7989A0;
+  font-weight: bold;
+  font-size: .75em;
   /*border-bottom: 1px solid #ddd;*/
 }
 
@@ -170,5 +238,18 @@ container.footer-column {
 
 }
 
+.footer-subhead {
+  font-size: .75em;
+  margin-top: 12px;
+  color: #7989A0;
+}
 
+.footer-social-header-text {
+  color: #354052;
+  /*margin-bottom: 5px;*/
+}
+
+.footer--social-inputs {
+  width: 250px;
+}
 
