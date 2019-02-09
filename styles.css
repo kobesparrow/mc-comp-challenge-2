@@ -1,0 +1,14 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+
+}
+
+img.nav-column1--image {
+  border-radius: 50%;
+}
