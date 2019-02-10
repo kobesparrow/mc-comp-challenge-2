@@ -42,39 +42,48 @@
       <p span="nav-column--header-text">Categories</p>
       <ul>
         <li><input type="checkbox" checked="checked">
-  <span class="checkmark">USERS</li>
+  <span class="checkmark">Administrative</li>
         <li><input type="checkbox" checked="checked">
-  <span class="checkmark">LOCATIONS</li>
+  <span class="checkmark">Design</li>
         <li><input type="checkbox" checked="checked">
-  <span class="checkmark">WORKFLOWS</li>
+  <span class="checkmark">Executive</li>
         <li><input type="checkbox" checked="checked">
-  <span class="checkmark">JOB BOARDS</li>
-        <li><input type="checkbox" checked="checked">
-  <span class="checkmark">SOCIAL</li>
+  <span class="checkmark">Human Resources</li>
       </ul>
     </div>
   </nav>
 </article>
 
 <article class="box2">
+
+
 <!-- NAV HEADER -->
   <nav class="nav-header">
-  <img src="" />
+  <img class="barista-class" width="30px" src="assets/barista.svg" />
   <input type="text" placeholder="Search for a bean, method or region" class="nav-header--searchbar">
-  <button class="nav-header--buttons"><img height="30px" src="assets/coffee-beans.svg">
+  <button class="nav-header--buttons"><img height="30px" src="assets/coffee-beans.svg" />
   </button>
-  <button class="nav-header--buttons">
+  <button class="nav-header--buttons"><img height="30px" src="assets/coffee-machine.svg" />
   </button>
-  <button class="nav-header--buttons">
+  <button class="nav-header--buttons"><img height="30px" src="assets/cup-of-coffee.svg" />
   </button>
   </nav>
 
   <body>
   <!-- BODY TOP -->
   <container class="body-top">
-    <p class="body-top--title">Customer Service Representative</p>
-    <p class="body-top--subhead"><img height="12" src="assets/maps-and-flags.svg" /> San Francisco, CA • <span class="body-top--subhead--link">Preview this post</span></p>
-
+    <div class="body-top--title">
+      <div class="body-top--should-have-used-grid">
+        <p class="body-top--title">Customer Service Representative</p>
+        <p class="body-top--subhead"><img height="12" src="assets/maps-and-flags.svg" /> San Francisco, CA • <span class="body-top--subhead--link">Preview this post</span></p>
+      </div>
+      <div class="body-top--buttons">
+        <p class="body-middle--button-esque">OPEN</p>
+        <p class="body-middle--button-esque"><img src="assets/bookmark.svg" height="15px"></p>
+        <p class="body-middle--button-esque"><img src="assets/pencil-edit-button.svg" height="15px"></p>
+        <p class="body-middle--button-esque"><img src="assets/rubbish-bin.svg" height="15px"></p>
+      </div>
+    </div>  
 
   <ul class="body-top--hoverlinks">
     <li class="body-top--navlist">SUMMARY</li>
@@ -131,8 +140,10 @@
           APPLICANTS </text>
       </g>
     </svg>
+    <img src="assets/fake-graph.png" height="200px">
     </div>
     <p class="body-middle--button-esque">TOTALS • Out of 5,231 views</p>
+    <p class="body-middle--button-esque">APPLICANTS/DAY</p>
 
 
 
@@ -148,7 +159,8 @@
   <table>
     <thead>
       <th></th>
-      <th colspan="3" class="table-styles">JOB DESCRIPTION</th>
+      <th colspan="3" class="table-styles">JOB DESCRIPTION<img src="assets/pencil-edit-white.svg" height="20px">EDIT</th> 
+
   </thead>
   <tbody>
     <tr>
@@ -192,7 +204,7 @@
     <tr>
       <td></td>
       <td class="table-left-column table-border-columns">HIRING LEAD</td>
-      <td class="table-border-columns">Eats everyone's leftovers</td>
+      <td class="table-border-columns"><img class="nav-column1--image jack" src="assets/jacks-head.jpg">Eats everyone's leftovers</td>
       <td></td>
     </tr>
     <tr>
@@ -212,25 +224,32 @@
     <button class="social-button twitter"><img height="16px" src="assets/twitter.svg"> Tweet this Job</button>
     <button class="social-button linkedin"><img height="16px" src="assets/linkedin.svg"> Post to Linkedin</button>
     <div class="footer-linktojob">
-      <p class="footer-social-header-text">Link to this job</p>
+      <p class="footer-social-header-text"><img src="assets/earth.svg" height="13px"> Link to this job</p>
       <p class="footer-subhead">So siphon et, extra medium brewed americano aftertaste sugar.</p>
-      <input class="footer--social-inputs" type="text" placeholder="blahblah">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="professional blah">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">Copy</button>
+        </span>
+      </div>
     </div>
-    <hr />
+    <hr class="social-hr" />
     <div class="footer-bottomwidget">
-      <p class="footer-social-header-text">Use the Button Widget</p>
+      <p class="footer-social-header-text"><img src="assets/newspaper.svg" height="13px"> Use the Button Widget</p>
       <p class="footer-subhead">So siphon et, extra medium brewed americano aftertaste sugar.</p>
-      <input class="footer--social-inputs" type="text" placeholder="blahblah">
-    </div>
-    <hr />
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="professional blah">
+        <span class="input-group-btn">
+          <button class="btn btn-default" type="button">Copy</button>
+        </span>
+      </div>
+    <hr class="social-hr" />
     <div class="footer-uploadresumes">
-      <p class="footer-social-header-text">Upload Resumes by Email</p>
+      <p class="footer-social-header-text"><img src="assets/paper-plane.svg" height="13px"> Upload Resumes by Email</p>
       <p class="footer-subhead">So siphon et, extra medium brewed americano aftertaste sugar.</p>
       <input class="footer--social-inputs" type="text" placeholder="blahblah">
+      </div>
     </div>
-
-
-
 
   </container>
 

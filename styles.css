@@ -8,9 +8,10 @@
 body {
   background-color: #ECF2F6;
 }
+
 container.mastergrid {
   display: grid;
-  grid-template-columns: 200px 950px;
+  grid-template-columns: 200px 1000px;
 }
 
 .box1 {
@@ -34,6 +35,14 @@ li {
   margin: 10px auto;
   font-size: .75em;
   font-style: bold;
+}
+
+li:hover {
+  /*padding-bottom: 10px;*/
+  border-left: 3px solid #16A4FA;
+  cursor: pointer;
+  color: white;
+  padding-left: 10px;
 }
 
 hr {
@@ -76,6 +85,10 @@ nav.nav-header {
   background-color: #16A4FA
 }
 
+.barista-class {
+  margin: 10px;
+}
+
 
 /*TOP SECTION*/
 .box2 {
@@ -85,6 +98,20 @@ nav.nav-header {
 
 .body-top {
   padding-left: 40px;
+}
+
+.body-top--title {
+  display: flex;
+  flex-direction: row;
+}
+
+.body-top--should-have-used-grid {
+  display: flex;
+  flex-direction: column;
+}
+
+.body-top--buttons {
+  float: right;
 }
 
 p.body-top--title {
@@ -205,6 +232,9 @@ span.body-top--subhead--link{
   border: #d2d3d4 solid 4px;
   padding-left: 10px;
   width: auto;
+  margin: auto;
+  margin-right: 0px;
+  display: inline-block;
 }
 
 /*BOTTOM SECTION*/
@@ -259,9 +289,17 @@ th {
   border-bottom: 1px solid #ddd;
 }
 
+img.jack {
+  height: 30px;
+}
+
+
+
+/*BOTTOM RIGHT COLUMN*/
+
 container.footer-column {
   margin-top: 40px;
-  width: 200px;
+  width: 220px;
   display: flex;
   flex-direction: column;
   padding-top: 0px;
@@ -293,6 +331,10 @@ container.footer-column {
 
 }
 
+hr.social-hr {
+  color: #7989A0;
+}
+
 .footer-subhead {
   font-size: .75em;
   margin-top: 12px;
@@ -301,10 +343,16 @@ container.footer-column {
 
 .footer-social-header-text {
   color: #354052;
-  /*margin-bottom: 5px;*/
+  width: auto;
+  margin-bottom: 12px;
 }
 
 .footer--social-inputs {
   width: 250px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
 }
 
