@@ -129,6 +129,41 @@ span.body-top--subhead--link{
   color: black;
 }
 
+/*CHARTS AND GRAPHS AND SHIT*/
+.body-middle--donut-graphs {
+  display: flex;
+  flex-direction: row;
+}
+
+.chart-text {
+  font: 16px/1.4em "Montserrat", Arial, sans-serif;
+  fill: #000;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+}
+
+.chart-label {
+  font-size: 0.2em;
+  text-transform: uppercase;
+  text-anchor: middle;
+  -moz-transform: translateY(0.7em);
+  -ms-transform: translateY(0.7em);
+  -webkit-transform: translateY(0.7em);
+  transform: translateY(0.7em);
+}
+
+.chart-number {
+ font-size: 0.6em;
+  line-height: 1;
+  text-anchor: middle;
+  -moz-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+}
+
 .body-table {
   display: flex;
   flex-direction: row;
@@ -153,6 +188,26 @@ span.body-top--subhead--link{
 .body-linebreak {
   grid-area: line;
 }
+
+.donut-segment:hover {
+  animation: circle-chart-fill 2s reverse; /* 1 */ 
+  transform-origin: center; /* 4 */
+}
+
+@keyframes circle-chart-fill {
+  to { stroke-dasharray: 0 100; }
+}
+
+.body-middle--button-esque {
+  border-radius: 25px;
+  padding: 5px;
+  background-color: white;
+  border: #d2d3d4 solid 4px;
+  padding-left: 10px;
+  width: auto;
+}
+
+/*BOTTOM SECTION*/
 
 div.table-div {
   margin: 40px;
